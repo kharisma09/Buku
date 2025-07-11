@@ -1,51 +1,46 @@
-# 📚 Buku Management App
+# Aplikasi Manajemen Buku
 
-A simple **CRUD application** to manage a list of books using **JavaFX**.
-You can add, edit, delete, and view books with details such as title, author, publisher, year of publication, and status.
+Aplikasi sederhana berbasis JavaFX untuk mengelola daftar buku.
+Pengguna dapat menambahkan, mengedit, menghapus, dan melihat daftar buku dengan detail seperti judul, penulis, penerbit, tahun terbit, dan status.
+
+## Fitur
+
+* Menambahkan data buku baru
+* Memperbarui data buku yang sudah ada
+* Menghapus data buku
+* Menampilkan semua data buku dalam tabel
+* Memilih buku untuk diedit atau dihapus
+* Validasi input dan pesan kesalahan jika ada field kosong atau salah
+* Dropdown untuk memilih status buku: Tersedia, Dipinjam, Hilang
+
+## Teknologi
+
+* Java 17 atau lebih baru
+* JavaFX
+* IDE (seperti IntelliJ IDEA, Eclipse, atau Visual Studio Code)
 
 
-## 🚀 Features
+## Cara Menjalankan
 
-✅ Add new books  
-✅ Update existing book details  
-✅ Delete books from the list  
-✅ View all books in a table  
-✅ Select book to edit/delete  
-✅ Error handling for empty fields and invalid inputs  
-✅ Dropdown for book status (`Tersedia`, `Dipinjam`, `Hilang`)  
+1. Clone repository ini:
 
-
-## 🛠️ Tech Stack
-
-* **Java 17+**
-* **JavaFX**
-* Maven/Gradle (optional)
-
-## ⚙️ How to Run
-
-1️⃣ Clone this repository:
-
-```bash
-git clone https://github.com/your-username/buku-management.git
+```
+git clone https://github.com/username/buku-management.git
 ```
 
-2️⃣ Open the project in your favorite IDE (e.g. IntelliJ IDEA, Eclipse, VS Code).
-Make sure you have JavaFX set up.
+2. Buka project di IDE yang Anda gunakan.
+   Pastikan library JavaFX sudah diatur dengan benar.
 
-3️⃣ Run the `Main.java` file.
-That’s it — the app window should pop up! 🎉
+3. Jalankan file `Main.java`.
+   Aplikasi akan terbuka dan siap digunakan.
 
+## Data Buku
 
-## 📝 Data Fields
+Setiap buku memiliki data berikut:
 
-Each book has:
-
-* **ID** (auto-generated)
-* **Judul** (Title)
-* **Penulis** (Author)
-* **Penerbit** (Publisher)
-* **Tahun Terbit** (Year of Publication)
-* **Status**:
-  📖 Tersedia
-  📖 Dipinjam
-  📖 Hilang
+* ID (otomatis)
+* Judul
+* Penulis
+* Penerbit
+* Tahun Terbit
+* Status: Tersedia, Dipinjam, Hilang
